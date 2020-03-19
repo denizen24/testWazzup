@@ -1,0 +1,32 @@
+{
+  "name": "testwazzup",
+  "version": "1.0.0",
+  "description": "make api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "celebrate": "^10.1.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "editorconfig": "^0.15.3",
+    "express": "^4.17.1",
+    "express-winston": "^4.0.3",
+    "helmet": "^3.21.3",
+    "jsonwebtoken": "^8.5.1",
+    "minimist": "^1.2.5",
+    "pg": "^7.18.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^1.19.4"
+  }
+}
