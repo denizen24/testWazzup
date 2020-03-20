@@ -69,8 +69,11 @@ app.use('*', (req, res) => {
   res.status(404).send(undfRoute);
 });
 
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log(`Server running at: http://localhost:${PORT}/`);
-});
+// app.listen(PORT, () => {
+//   // eslint-disable-next-line no-console
+//   console.log(`Server running at: http://localhost:${PORT}/`);
+// });
+
+module.exports = app;

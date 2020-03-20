@@ -59,7 +59,6 @@ const Task = {
       const ownerId = (req.user);
       const taskId = req.params.id;
       const link = Math.random().toString(36).substr(2, 10);
-      console.log('link = ', link);
       const getAllTasksQuery = `SELECT * FROM public.tasks where user_id = ${ownerId} and id = ${taskId}`;
       const { rows } = await database.query(getAllTasksQuery);
       if (!rows) {
