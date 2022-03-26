@@ -20,7 +20,7 @@
     "express-winston": "^4.0.3",
     "helmet": "^3.21.3",
     "jsonwebtoken": "^8.5.1",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "npm-check-updates": "^4.0.4",
     "pg": "^7.18.2",
     "winston": "^3.2.1"
